@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data (keep structure, ignore contents)
+data/uploads/*
+data/vectorstores/*
+!data/uploads/.gitkeep
+!data/vectorstores/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models cache
+*.bin
+*.safetensors
+
+# Logs
+*.log
